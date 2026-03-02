@@ -1,25 +1,187 @@
-# 💫 About Me:
-Data Analytics and AI | Master’s in Computer Science | Building solutions with Python, AI, and cloud-native ML<br>🔨 Working on: AI-driven document retrieval systems and LLM-powered analytics.<br>🤝 Collaborate on: ML, AI/LLMs, or Data Analytics projects (open-source or research!).<br>🛠️ Need help with: Optimizing RAG pipelines for low-latency edge deployments.<br>🌱 Learning: Advanced LLM fine-tuning and hybrid cloud architectures.<br>💬 Ask me about: Python, NLP, swarm intelligence, or fire-risk prediction models.<br>🍛 Fun fact: Coffee makes me sleepy
+<div align="center">
 
+<!-- ANIMATED GHIBLI BANNER -->
+<img src="./assets/banner.svg" width="100%" alt="Rayid Ali — building things at the intersection of AI and why not"/>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/rayidali) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rayidali3@gmail.com) 
+<br/>
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=rayidali&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<!-- SOCIAL LINKS — clean, minimal -->
+<a href="https://linkedin.com/in/rayidali"><img src="https://img.shields.io/badge/linkedin-%232C1810.svg?style=for-the-badge&logo=linkedin&logoColor=white" height="28"/></a>&nbsp;
+<a href="mailto:rayidali3@gmail.com"><img src="https://img.shields.io/badge/email-%23FF6B6B.svg?style=for-the-badge&logo=gmail&logoColor=white" height="28"/></a>&nbsp;
+<a href="https://rayidali.github.io"><img src="https://img.shields.io/badge/portfolio-%23A8D5BA.svg?style=for-the-badge&logo=safari&logoColor=black" height="28"/></a>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=rayidali&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+<br/><br/>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<!-- GIF 1 — header accent -->
+<img src="https://i.postimg.cc/02ZGhjVV/Crop-animated-images-(3).gif" width="800"/>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=rayidali&limit=5&theme=dark&combine_all_yearly_contributions=true)
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=rayidali&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<div align="center">
+
+## `> whoami`
+
+</div>
+
+<p align="center">
+<em>
+i'm rayid; i like building things that live somewhere between "actually useful" and "questionable life choices."
+<br/>currently knee-deep in AI/ML, making LLMs do things they probably shouldn't
+<br/><br/>
+i ship fast, break things occasionally, and fix them before anyone notices.
+<br/>MS in Computer Science. data analytics & AI obsessive. full-stack when i have to be.
+<br/><br/>
+☕ fun fact: coffee makes me sleepy, which probably means i got adhd
+</em>
+</p>
+
+<br/>
+
+<div align="center">
+
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="500"/>
+
+<br/><br/>
+
+<!-- GIF 2 — section divider -->
+<img src="https://i.postimg.cc/7YP01DqS/Crop-animated-images-(4).gif" width="800"/>
+
+<br/><br/>
+
+## `> cat tech_stack.md`
+
+</div>
+
+<br/>
+
+<table align="center">
+<tr>
+<td align="center" width="300">
+
+### ⚔️ Languages
+
+<br/>
+
+![Python](https://img.shields.io/badge/python-%232C1810.svg?style=flat-square&logo=python&logoColor=FFD760)
+![JavaScript](https://img.shields.io/badge/javascript-%23FFD760.svg?style=flat-square&logo=javascript&logoColor=2C1810)
+![TypeScript](https://img.shields.io/badge/typescript-%23A8D5BA.svg?style=flat-square&logo=typescript&logoColor=2C1810)
+![Go](https://img.shields.io/badge/go-%23FF8C5A.svg?style=flat-square&logo=go&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%232C1810.svg?style=flat-square&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23FBBFCA.svg?style=flat-square&logo=openjdk&logoColor=2C1810)
+![R](https://img.shields.io/badge/R-%23B8D4F0.svg?style=flat-square&logo=r&logoColor=2C1810)
+![LaTeX](https://img.shields.io/badge/latex-%23FFF8E7.svg?style=flat-square&logo=latex&logoColor=2C1810)
+
+</td>
+<td align="center" width="300">
+
+### 🧠 AI / ML
+
+<br/>
+
+![PyTorch](https://img.shields.io/badge/pytorch-%23FF6B6B.svg?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/tensorflow-%23FFD760.svg?style=flat-square&logo=tensorflow&logoColor=2C1810)
+![scikit-learn](https://img.shields.io/badge/sklearn-%23A8D5BA.svg?style=flat-square&logo=scikit-learn&logoColor=2C1810)
+![Keras](https://img.shields.io/badge/keras-%232C1810.svg?style=flat-square&logo=keras&logoColor=FF6B6B)
+![OpenCV](https://img.shields.io/badge/opencv-%23B8D4F0.svg?style=flat-square&logo=opencv&logoColor=2C1810)
+![NumPy](https://img.shields.io/badge/numpy-%23FF8C5A.svg?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23FBBFCA.svg?style=flat-square&logo=pandas&logoColor=2C1810)
+![MLflow](https://img.shields.io/badge/mlflow-%23FFF8E7.svg?style=flat-square&logo=numpy&logoColor=2C1810)
+
+</td>
+<td align="center" width="300">
+
+### ☁️ Cloud & Tools
+
+<br/>
+
+![AWS](https://img.shields.io/badge/AWS-%23FFD760.svg?style=flat-square&logo=amazon-aws&logoColor=2C1810)
+![Azure](https://img.shields.io/badge/azure-%23B8D4F0.svg?style=flat-square&logo=microsoftazure&logoColor=2C1810)
+![GCP](https://img.shields.io/badge/GCP-%23A8D5BA.svg?style=flat-square&logo=google-cloud&logoColor=2C1810)
+![Firebase](https://img.shields.io/badge/firebase-%23FF8C5A.svg?style=flat-square&logo=firebase&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%232C1810.svg?style=flat-square&logo=docker&logoColor=B8D4F0)
+![Flask](https://img.shields.io/badge/flask-%23FFF8E7.svg?style=flat-square&logo=flask&logoColor=2C1810)
+![Git](https://img.shields.io/badge/git-%23FF6B6B.svg?style=flat-square&logo=git&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgres-%23FBBFCA.svg?style=flat-square&logo=postgresql&logoColor=2C1810)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center">
+
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="500"/>
+
+
+<br/><br/>
+
+## `> ls projects/`
+
+<br/>
+
+<!-- PROJECT CARDS -->
+<a href="https://github.com/rayidali/cinechrony">
+  <img src="./assets/card-cinechrony.svg" width="390" alt="Cinechrony — letterboxd but collaborative"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/rayidali/pdf2video">
+  <img src="./assets/card-pdf2video.svg" width="390" alt="pdf2video — research papers to explainer videos"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/rayidali/rayidali.github.io">
+  <img src="./assets/card-portfolio.svg" width="390" alt="Portfolio — personal site with Three.js"/>
+</a>
+
+<br/><br/>
+
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="500"/>
+
+<br/><br/>
+
+## `> git log --stat`
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=rayidali&hide_border=false&border_color=2C1810&bg_color=FFF8E7&title_color=2C1810&text_color=5A3E28&icon_color=FF8C5A&ring_color=FF6B6B&border_radius=0&show_icons=true&cache_seconds=86400" width="420" alt="GitHub Stats"/>
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rayidali&hide_border=false&border_color=2C1810&bg_color=FFF8E7&title_color=2C1810&text_color=5A3E28&border_radius=0&layout=compact&cache_seconds=86400" width="340" alt="Top Languages"/>
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=rayidali&background=FFF8E7&border=2C1810&stroke=2C1810&ring=FF6B6B&fire=FF8C5A&currStreakNum=2C1810&sideNums=2C1810&currStreakLabel=5A3E28&sideLabels=5A3E28&dates=8B7355&border_radius=0" width="420" alt="GitHub Streak"/>
+
+<br/><br/>
+
+<!-- DIVIDER -->
+<img src="./assets/divider.svg" width="500"/>
+
+<br/><br/>
+
+```
+ ╔═══════════════════════════════════════════════╗
+ ║                                               ║
+ ║   thanks for scrolling this far.              ║
+ ║   let's build something cool together.        ║
+ ║                                               ║
+ ║   rayidali3@gmail.com                         ║
+ ║                                               ║
+ ╚═══════════════════════════════════════════════╝
+```
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=rayidali&style=flat-square&color=FF8C5A&label=visitors" alt="Profile views"/>
+
+</div>
