@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9A6C"/>
+      <stop offset="30%" style="stop-color:#FFD4A8"/>
+      <stop offset="60%" style="stop-color:#FFECD2"/>
+      <stop offset="100%" style="stop-color:#C9E4CA"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#A8D5BA"/>
+      <stop offset="100%" style="stop-color:#7CBFA0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="900" height="320" fill="url(#sky)"/>
+
+  <!-- Sun -->
+  <circle cx="720" cy="80" r="50" fill="#FFE87C" opacity="0.5">
+    <animate attributeName="opacity" values="0.4;0.75;0.4" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="48;56;48" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="720" cy="80" r="32" fill="#FFD760" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Cloud 1 -->
+  <g opacity="0.8">
+    <animateTransform attributeName="transform" type="translate" values="-200,0;1100,0;-200,0" dur="55s" repeatCount="indefinite"/>
+    <ellipse cx="0" cy="55" rx="42" ry="16" fill="#FFF8F0" stroke="#000" stroke-width="1.5"/>
+    <ellipse cx="-18" cy="62" rx="28" ry="12" fill="#FFF8F0" stroke="#000" stroke-width="1.5"/>
+    <ellipse cx="20" cy="62" rx="25" ry="11" fill="#FFF8F0" stroke="#000" stroke-width="1.5"/>
+    <ellipse cx="0" cy="62" rx="32" ry="13" fill="#FFF8F0"/>
+  </g>
+
+  <!-- Cloud 2 -->
+  <g opacity="0.6">
+    <animateTransform attributeName="transform" type="translate" values="950,0;-250,0;950,0" dur="65s" repeatCount="indefinite"/>
+    <ellipse cx="0" cy="40" rx="35" ry="13" fill="#FFF8F0" stroke="#000" stroke-width="1.5"/>
+    <ellipse cx="-15" cy="46" rx="22" ry="10" fill="#FFF8F0" stroke="#000" stroke-width="1.5"/>
+    <ellipse cx="16" cy="46" rx="20" ry="9" fill="#FFF8F0" stroke="#000" stroke-width="1.5"/>
+    <ellipse cx="0" cy="46" rx="26" ry="11" fill="#FFF8F0"/>
+  </g>
+
+  <!-- Cloud 3 -->
+  <g opacity="0.5">
+    <animateTransform attributeName="transform" type="translate" values="-300,0;1200,0;-300,0" dur="75s" repeatCount="indefinite"/>
+    <ellipse cx="0" cy="90" rx="30" ry="12" fill="#FFF8F0" stroke="#000" stroke-width="1.5"/>
+    <ellipse cx="-12" cy="95" rx="20" ry="9" fill="#FFF8F0" stroke="#000" stroke-width="1.5"/>
+    <ellipse cx="14" cy="95" rx="18" ry="8" fill="#FFF8F0" stroke="#000" stroke-width="1.5"/>
+    <ellipse cx="0" cy="95" rx="22" ry="10" fill="#FFF8F0"/>
+  </g>
+
+  <!-- Birds -->
+  <g opacity="0.6">
+    <animateTransform attributeName="transform" type="translate" values="-60,0;500,-6;1000,0" dur="20s" repeatCount="indefinite"/>
+    <path d="M0,48 Q5,42 10,48" fill="none" stroke="#3D2B1F" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M10,48 Q15,42 20,48" fill="none" stroke="#3D2B1F" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.4">
+    <animateTransform attributeName="transform" type="translate" values="-80,0;400,5;900,0" dur="24s" repeatCount="indefinite"/>
+    <path d="M0,60 Q4,55 8,60" fill="none" stroke="#3D2B1F" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M8,60 Q12,55 16,60" fill="none" stroke="#3D2B1F" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- === NYC SKYLINE === -->
+
+  <!-- Far background buildings (lighter) -->
+  <!-- Left cluster -->
+  <rect x="-5" y="155" width="30" height="130" fill="#B8D4A3" stroke="#000" stroke-width="2"/>
+  <rect x="30" y="170" width="25" height="115" fill="#B8D4A3" stroke="#000" stroke-width="2"/>
+  <rect x="60" y="145" width="22" height="140" fill="#B8D4A3" stroke="#000" stroke-width="2"/>
+  <rect x="87" y="165" width="28" height="120" fill="#B8D4A3" stroke="#000" stroke-width="2"/>
+
+  <!-- Mid-left -->
+  <rect x="125" y="140" width="20" height="145" fill="#B8D4A3" stroke="#000" stroke-width="2"/>
+  <rect x="150" y="160" width="26" height="125" fill="#B8D4A3" stroke="#000" stroke-width="2"/>
+
+  <!-- Right cluster background -->
+  <rect x="720" y="150" width="28" height="135" fill="#B8D4A3" stroke="#000" stroke-width="2"/>
+  <rect x="753" y="165" width="22" height="120" fill="#B8D4A3" stroke="#000" stroke-width="2"/>
+  <rect x="780" y="140" width="30" height="145" fill="#B8D4A3" stroke="#000" stroke-width="2"/>
+  <rect x="815" y="155" width="25" height="130" fill="#B8D4A3" stroke="#000" stroke-width="2"/>
+  <rect x="845" y="170" width="28" height="115" fill="#B8D4A3" stroke="#000" stroke-width="2"/>
+  <rect x="878" y="150" width="25" height="135" fill="#B8D4A3" stroke="#000" stroke-width="2"/>
+
+  <!-- Mid buildings (medium green) -->
+  <!-- Left side -->
+  <rect x="10" y="175" width="35" height="110" fill="#8FBA7A" stroke="#000" stroke-width="2.5"/>
+  <rect x="50" y="160" width="28" height="125" fill="#8FBA7A" stroke="#000" stroke-width="2.5"/>
+  
+  <!-- Empire State Building (left area) -->
+  <rect x="90" y="115" width="32" height="170" fill="#8FBA7A" stroke="#000" stroke-width="2.5"/>
+  <rect x="100" y="100" width="12" height="20" fill="#8FBA7A" stroke="#000" stroke-width="2"/>
+  <rect x="103" y="82" width="6" height="22" fill="#8FBA7A" stroke="#000" stroke-width="1.5"/>
+  <line x1="106" y1="82" x2="106" y2="68" stroke="#000" stroke-width="2.5"/>
+
+  <rect x="130" y="170" width="24" height="115" fill="#8FBA7A" stroke="#000" stroke-width="2.5"/>
+  <rect x="160" y="180" width="20" height="105" fill="#8FBA7A" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Right side mid buildings -->
+  <rect x="730" y="170" width="32" height="115" fill="#8FBA7A" stroke="#000" stroke-width="2.5"/>
+  <rect x="768" y="155" width="26" height="130" fill="#8FBA7A" stroke="#000" stroke-width="2.5"/>
+  
+  <!-- One WTC (right area) -->
+  <rect x="800" y="95" width="28" height="190" fill="#8FBA7A" stroke="#000" stroke-width="2.5"/>
+  <polygon points="808,95 814,72 820,95" fill="#8FBA7A" stroke="#000" stroke-width="2"/>
+  <line x1="814" y1="72" x2="814" y2="58" stroke="#000" stroke-width="2"/>
+
+  <rect x="835" y="165" width="25" height="120" fill="#8FBA7A" stroke="#000" stroke-width="2.5"/>
+  <rect x="865" y="175" width="40" height="110" fill="#8FBA7A" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Front buildings (darkest green) -->
+  <!-- Left -->
+  <rect x="-5" y="200" width="40" height="85" fill="#6B9E5A" stroke="#000" stroke-width="2.5"/>
+  <rect x="40" y="195" width="30" height="90" fill="#6B9E5A" stroke="#000" stroke-width="2.5"/>
+  <rect x="75" y="205" width="35" height="80" fill="#6B9E5A" stroke="#000" stroke-width="2.5"/>
+  <rect x="115" y="195" width="28" height="90" fill="#6B9E5A" stroke="#000" stroke-width="2.5"/>
+  <rect x="148" y="210" width="38" height="75" fill="#6B9E5A" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Right -->
+  <rect x="715" y="205" width="35" height="80" fill="#6B9E5A" stroke="#000" stroke-width="2.5"/>
+  <rect x="755" y="195" width="30" height="90" fill="#6B9E5A" stroke="#000" stroke-width="2.5"/>
+  <rect x="790" y="200" width="28" height="85" fill="#6B9E5A" stroke="#000" stroke-width="2.5"/>
+  <rect x="823" y="210" width="35" height="75" fill="#6B9E5A" stroke="#000" stroke-width="2.5"/>
+  <rect x="863" y="198" width="42" height="87" fill="#6B9E5A" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Windows (tiny dots on buildings) -->
+  <!-- Empire State windows -->
+  <rect x="96" y="125" width="3" height="3" fill="#FFECD2" opacity="0.7"/>
+  <rect x="103" y="125" width="3" height="3" fill="#FFECD2" opacity="0.5"/>
+  <rect x="110" y="125" width="3" height="3" fill="#FFECD2" opacity="0.7"/>
+  <rect x="96" y="135" width="3" height="3" fill="#FFECD2" opacity="0.6"/>
+  <rect x="103" y="135" width="3" height="3" fill="#FFECD2" opacity="0.8"/>
+  <rect x="110" y="135" width="3" height="3" fill="#FFECD2" opacity="0.5"/>
+  <rect x="96" y="145" width="3" height="3" fill="#FFECD2" opacity="0.7"/>
+  <rect x="103" y="145" width="3" height="3" fill="#FFECD2" opacity="0.6"/>
+  <rect x="110" y="145" width="3" height="3" fill="#FFECD2" opacity="0.8"/>
+
+  <!-- One WTC windows -->
+  <rect x="806" y="105" width="3" height="3" fill="#FFECD2" opacity="0.7"/>
+  <rect x="813" y="105" width="3" height="3" fill="#FFECD2" opacity="0.5"/>
+  <rect x="820" y="105" width="3" height="3" fill="#FFECD2" opacity="0.7"/>
+  <rect x="806" y="115" width="3" height="3" fill="#FFECD2" opacity="0.6"/>
+  <rect x="813" y="115" width="3" height="3" fill="#FFECD2" opacity="0.8"/>
+  <rect x="820" y="115" width="3" height="3" fill="#FFECD2" opacity="0.5"/>
+  <rect x="806" y="125" width="3" height="3" fill="#FFECD2" opacity="0.7"/>
+  <rect x="813" y="125" width="3" height="3" fill="#FFECD2" opacity="0.6"/>
+  <rect x="820" y="125" width="3" height="3" fill="#FFECD2" opacity="0.8"/>
+
+  <!-- Twinkling window lights -->
+  <rect x="96" y="155" width="3" height="3" fill="#FFE87C">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="813" y="135" width="3" height="3" fill="#FFE87C">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+  </rect>
+  <rect x="55" y="210" width="3" height="3" fill="#FFE87C">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite" begin="1s"/>
+  </rect>
+  <rect x="770" y="210" width="3" height="3" fill="#FFE87C">
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.8s" repeatCount="indefinite" begin="0.3s"/>
+  </rect>
+  <rect x="140" y="200" width="3" height="3" fill="#FFE87C">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.2s" repeatCount="indefinite" begin="1.5s"/>
+  </rect>
+  <rect x="850" y="215" width="3" height="3" fill="#FFE87C">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite" begin="0.8s"/>
+  </rect>
+
+  <!-- Water / ground -->
+  <rect x="0" y="285" width="900" height="35" fill="url(#water)" stroke="#000" stroke-width="2"/>
+
+  <!-- Water shimmer lines -->
+  <line x1="50" y1="295" x2="130" y2="295" stroke="#FFF8F0" stroke-width="1" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite"/>
+  </line>
+  <line x1="300" y1="300" x2="400" y2="300" stroke="#FFF8F0" stroke-width="1" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.4;0.1" dur="4s" repeatCount="indefinite" begin="1s"/>
+  </line>
+  <line x1="550" y1="293" x2="620" y2="293" stroke="#FFF8F0" stroke-width="1" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+  </line>
+  <line x1="750" y1="298" x2="850" y2="298" stroke="#FFF8F0" stroke-width="1" opacity="0.3">
+    <animate attributeName="opacity" values="0.15;0.45;0.15" dur="3.8s" repeatCount="indefinite" begin="1.2s"/>
+  </line>
+
+  <!-- Title card shadow -->
+  <rect x="225" y="55" width="460" height="115" fill="#000" opacity="0.12"/>
+  <!-- Title card -->
+  <rect x="220" y="50" width="460" height="115" fill="#FFF8E7" stroke="#000" stroke-width="4" opacity="0.92"/>
+
+  <!-- Name -->
+  <text x="450" y="97" font-family="monospace" font-size="36" font-weight="bold" fill="#2C1810" text-anchor="middle" letter-spacing="2">RAYID ALI</text>
+
+  <!-- Tagline (inside the box now) -->
+  <text x="450" y="122" font-family="monospace" font-size="12" fill="#5A3E28" text-anchor="middle" letter-spacing="1">building things at the intersection of AI and "why not"</text>
+
+  <!-- Location tag -->
+  <text x="450" y="145" font-family="monospace" font-size="10" fill="#8B7355" text-anchor="middle">📍 nyc</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="310" width="900" height="10" fill="#FF8C5A" stroke="#000" stroke-width="2"/>
+
+  <!-- Border -->
+  <rect x="0" y="0" width="900" height="320" fill="none" stroke="#000" stroke-width="4"/>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 280" width="820" height="280">
+  <!-- Terminal shadow -->
+  <rect x="6" y="6" width="808" height="268" fill="#000" opacity="0.15"/>
+  <!-- Terminal body -->
+  <rect x="0" y="0" width="808" height="268" fill="#FFF8E7" stroke="#000" stroke-width="3.5"/>
+  
+  <!-- Terminal title bar -->
+  <rect x="0" y="0" width="808" height="32" fill="#2C1810" stroke="#000" stroke-width="3.5"/>
+  <circle cx="18" cy="16" r="6" fill="#FF6B6B" stroke="#000" stroke-width="1.5">
+    <animate attributeName="opacity" values="1;0.6;1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="38" cy="16" r="6" fill="#FFD760" stroke="#000" stroke-width="1.5">
+    <animate attributeName="opacity" values="1;0.6;1" dur="3s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <circle cx="58" cy="16" r="6" fill="#A8D5BA" stroke="#000" stroke-width="1.5">
+    <animate attributeName="opacity" values="1;0.6;1" dur="3s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
+  <text x="404" y="21" font-family="monospace" font-size="12" fill="#FFF8E7" text-anchor="middle">rayid@nyc: ~/about_me</text>
+
+  <!-- Command -->
+  <text x="20" y="58" font-family="monospace" font-size="12.5" fill="#8FBA7A">$</text>
+  <text x="35" y="58" font-family="monospace" font-size="12.5" fill="#2C1810" opacity="0">
+    cat about_me.txt
+    <animate attributeName="opacity" values="0;0;1" dur="1.5s" fill="freeze"/>
+  </text>
+
+  <!-- Bio lines -->
+  <text x="20" y="86" font-family="monospace" font-size="12" fill="#5A3E28" opacity="0">
+    i'm rayid. i build things that live somewhere between
+    <animate attributeName="opacity" values="0;0;0;1" dur="2s" fill="freeze"/>
+  </text>
+  <text x="20" y="104" font-family="monospace" font-size="12" fill="#5A3E28" opacity="0">
+    "actually useful" and "questionable life choices."
+    <animate attributeName="opacity" values="0;0;0;0;1" dur="2.5s" fill="freeze"/>
+  </text>
+
+  <text x="20" y="130" font-family="monospace" font-size="12" fill="#5A3E28" opacity="0">
+    currently knee-deep in ai, making llms do stuff they
+    <animate attributeName="opacity" values="0;0;0;0;0;1" dur="3s" fill="freeze"/>
+  </text>
+  <text x="20" y="148" font-family="monospace" font-size="12" fill="#5A3E28" opacity="0">
+    probably shouldn't be doing.
+    <animate attributeName="opacity" values="0;0;0;0;0;0;1" dur="3.5s" fill="freeze"/>
+  </text>
+
+  <text x="20" y="174" font-family="monospace" font-size="12" fill="#5A3E28" opacity="0">
+    i ship fast, break things occasionally, and fix them before
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;1" dur="4s" fill="freeze"/>
+  </text>
+  <text x="20" y="192" font-family="monospace" font-size="12" fill="#5A3E28" opacity="0">
+    anyone notices. MS in CS. data analytics. full-stack when i have to be.
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1" dur="4.5s" fill="freeze"/>
+  </text>
+
+  <!-- Fun fact -->
+  <text x="20" y="220" font-family="monospace" font-size="12" fill="#8FBA7A" opacity="0">
+    $
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;1" dur="5s" fill="freeze"/>
+  </text>
+  <text x="35" y="220" font-family="monospace" font-size="12" fill="#2C1810" opacity="0">
+    echo $FUN_FACT
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;1" dur="5s" fill="freeze"/>
+  </text>
+  <text x="20" y="244" font-family="monospace" font-size="12" fill="#FF8C5A" opacity="0">
+    ☕ coffee makes me sleepy. i probably have adhd.
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;1" dur="5.5s" fill="freeze"/>
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="20" y="256" width="8" height="14" fill="#8FBA7A">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Scan line -->
+  <rect x="0" y="32" width="808" height="2" fill="#A8D5BA" opacity="0.15">
+    <animate attributeName="y" values="32;268;32" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.2;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

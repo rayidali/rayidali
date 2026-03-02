@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 280" width="820" height="280">
+  <!-- Shadow that breathes -->
+  <rect x="6" y="6" width="808" height="268" fill="#000" opacity="0.12">
+    <animate attributeName="opacity" values="0.12;0.18;0.12" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Card background -->
+  <rect x="0" y="0" width="808" height="268" fill="#FFF8E7" stroke="#000" stroke-width="3.5"/>
+
+  <!-- Header with shimmer -->
+  <rect x="0" y="0" width="808" height="36" fill="#2C1810" stroke="#000" stroke-width="3.5"/>
+  <rect x="0" y="0" width="80" height="36" fill="#FFF8E7" opacity="0">
+    <animate attributeName="x" values="-80;900" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.08;0" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="404" y="24" font-family="monospace" font-size="14" font-weight="bold" fill="#FFF8E7" text-anchor="middle">⚡ TECH STACK</text>
+
+  <!-- Column 1: Languages -->
+  <text x="25" y="68" font-family="monospace" font-size="11" font-weight="bold" fill="#8FBA7A">// languages</text>
+  
+  <rect x="25" y="80" width="68" height="26" fill="#2C1810" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="59" y="97" font-family="monospace" font-size="10" fill="#FFD760" text-anchor="middle">Python</text>
+  
+  <rect x="101" y="80" width="82" height="26" fill="#2C1810" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite" begin="0.3s"/>
+  </rect>
+  <text x="142" y="97" font-family="monospace" font-size="10" fill="#FFD760" text-anchor="middle">JavaScript</text>
+  
+  <rect x="191" y="80" width="82" height="26" fill="#2C1810" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite" begin="0.6s"/>
+  </rect>
+  <text x="232" y="97" font-family="monospace" font-size="10" fill="#A8D5BA" text-anchor="middle">TypeScript</text>
+
+  <rect x="25" y="114" width="42" height="26" fill="#2C1810" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite" begin="0.9s"/>
+  </rect>
+  <text x="46" y="131" font-family="monospace" font-size="10" fill="#FF8C5A" text-anchor="middle">Go</text>
+
+  <rect x="75" y="114" width="48" height="26" fill="#2C1810" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite" begin="1.2s"/>
+  </rect>
+  <text x="99" y="131" font-family="monospace" font-size="10" fill="#B8D4F0" text-anchor="middle">C++</text>
+
+  <rect x="131" y="114" width="52" height="26" fill="#2C1810" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite" begin="1.5s"/>
+  </rect>
+  <text x="157" y="131" font-family="monospace" font-size="10" fill="#FBBFCA" text-anchor="middle">Java</text>
+
+  <rect x="191" y="114" width="32" height="26" fill="#2C1810" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite" begin="1.8s"/>
+  </rect>
+  <text x="207" y="131" font-family="monospace" font-size="10" fill="#FF6B6B" text-anchor="middle">R</text>
+
+  <!-- Column 2: AI/ML -->
+  <text x="290" y="68" font-family="monospace" font-size="11" font-weight="bold" fill="#FF8C5A">// ai &amp; ml</text>
+  
+  <rect x="290" y="80" width="72" height="26" fill="#FF6B6B" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="326" y="97" font-family="monospace" font-size="10" fill="#FFF8E7" text-anchor="middle">PyTorch</text>
+  
+  <rect x="370" y="80" width="90" height="26" fill="#FFD760" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" repeatCount="indefinite" begin="0.4s"/>
+  </rect>
+  <text x="415" y="97" font-family="monospace" font-size="10" fill="#2C1810" text-anchor="middle">TensorFlow</text>
+
+  <rect x="468" y="80" width="72" height="26" fill="#A8D5BA" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" repeatCount="indefinite" begin="0.8s"/>
+  </rect>
+  <text x="504" y="97" font-family="monospace" font-size="10" fill="#2C1810" text-anchor="middle">sklearn</text>
+
+  <rect x="290" y="114" width="62" height="26" fill="#FBBFCA" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" repeatCount="indefinite" begin="1.2s"/>
+  </rect>
+  <text x="321" y="131" font-family="monospace" font-size="10" fill="#2C1810" text-anchor="middle">Keras</text>
+
+  <rect x="360" y="114" width="68" height="26" fill="#B8D4F0" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" repeatCount="indefinite" begin="1.6s"/>
+  </rect>
+  <text x="394" y="131" font-family="monospace" font-size="10" fill="#2C1810" text-anchor="middle">OpenCV</text>
+
+  <rect x="436" y="114" width="62" height="26" fill="#FFD4A8" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" repeatCount="indefinite" begin="2s"/>
+  </rect>
+  <text x="467" y="131" font-family="monospace" font-size="10" fill="#2C1810" text-anchor="middle">NumPy</text>
+
+  <rect x="506" y="114" width="66" height="26" fill="#FFF8E7" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3.5s" repeatCount="indefinite" begin="2.4s"/>
+  </rect>
+  <text x="539" y="131" font-family="monospace" font-size="10" fill="#2C1810" text-anchor="middle">Pandas</text>
+
+  <!-- Column 3: Cloud -->
+  <text x="575" y="68" font-family="monospace" font-size="11" font-weight="bold" fill="#B8D4F0">// cloud &amp; infra</text>
+  
+  <rect x="575" y="80" width="48" height="26" fill="#FFD760" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="599" y="97" font-family="monospace" font-size="10" fill="#2C1810" text-anchor="middle">AWS</text>
+
+  <rect x="631" y="80" width="58" height="26" fill="#B8D4F0" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4.5s" repeatCount="indefinite" begin="0.5s"/>
+  </rect>
+  <text x="660" y="97" font-family="monospace" font-size="10" fill="#2C1810" text-anchor="middle">Azure</text>
+
+  <rect x="697" y="80" width="48" height="26" fill="#A8D5BA" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4.5s" repeatCount="indefinite" begin="1s"/>
+  </rect>
+  <text x="721" y="97" font-family="monospace" font-size="10" fill="#2C1810" text-anchor="middle">GCP</text>
+
+  <rect x="575" y="114" width="72" height="26" fill="#FF8C5A" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4.5s" repeatCount="indefinite" begin="1.5s"/>
+  </rect>
+  <text x="611" y="131" font-family="monospace" font-size="10" fill="#FFF8E7" text-anchor="middle">Firebase</text>
+
+  <rect x="655" y="114" width="66" height="26" fill="#2C1810" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4.5s" repeatCount="indefinite" begin="2s"/>
+  </rect>
+  <text x="688" y="131" font-family="monospace" font-size="10" fill="#B8D4F0" text-anchor="middle">Docker</text>
+
+  <rect x="729" y="114" width="48" height="26" fill="#FF6B6B" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4.5s" repeatCount="indefinite" begin="2.5s"/>
+  </rect>
+  <text x="753" y="131" font-family="monospace" font-size="10" fill="#FFF8E7" text-anchor="middle">Git</text>
+
+  <!-- Divider line -->
+  <line x1="25" y1="158" x2="783" y2="158" stroke="#2C1810" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- What I Build header -->
+  <text x="25" y="182" font-family="monospace" font-size="11" font-weight="bold" fill="#2C1810">WHAT I BUILD:</text>
+
+  <!-- Activity cards with floating animation -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite"/>
+    <rect x="25" y="195" width="175" height="55" fill="#A8D5BA" stroke="#000" stroke-width="2.5"/>
+    <text x="35" y="215" font-family="monospace" font-size="18">🤖</text>
+    <text x="60" y="215" font-family="monospace" font-size="11" font-weight="bold" fill="#2C1810">LLM-Powered</text>
+    <text x="60" y="233" font-family="monospace" font-size="10" fill="#2C1810">RAG, Agents, NLP</text>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite" begin="0.4s"/>
+    <rect x="215" y="195" width="175" height="55" fill="#FFD4A8" stroke="#000" stroke-width="2.5"/>
+    <text x="225" y="215" font-family="monospace" font-size="18">📊</text>
+    <text x="250" y="215" font-family="monospace" font-size="11" font-weight="bold" fill="#2C1810">Data Analytics</text>
+    <text x="250" y="233" font-family="monospace" font-size="10" fill="#2C1810">ML Pipelines, Viz</text>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite" begin="0.8s"/>
+    <rect x="405" y="195" width="175" height="55" fill="#FBBFCA" stroke="#000" stroke-width="2.5"/>
+    <text x="415" y="215" font-family="monospace" font-size="18">🌐</text>
+    <text x="440" y="215" font-family="monospace" font-size="11" font-weight="bold" fill="#2C1810">Full-Stack Apps</text>
+    <text x="440" y="233" font-family="monospace" font-size="10" fill="#2C1810">Next.js, Flask</text>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite" begin="1.2s"/>
+    <rect x="595" y="195" width="185" height="55" fill="#B8D4F0" stroke="#000" stroke-width="2.5"/>
+    <text x="605" y="215" font-family="monospace" font-size="18">🔬</text>
+    <text x="630" y="215" font-family="monospace" font-size="11" font-weight="bold" fill="#2C1810">Research → Prod</text>
+    <text x="630" y="233" font-family="monospace" font-size="10" fill="#2C1810">Papers to Products</text>
+  </g>
+</svg>

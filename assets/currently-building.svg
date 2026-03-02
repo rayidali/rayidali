@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 170" width="820" height="170">
+  <!-- Shadow breathing -->
+  <rect x="6" y="6" width="808" height="158" fill="#000" opacity="0.15">
+    <animate attributeName="opacity" values="0.12;0.2;0.12" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Card -->
+  <rect x="0" y="0" width="808" height="158" fill="#FFF8E7" stroke="#000" stroke-width="3.5"/>
+  
+  <!-- Left accent stripe with glow -->
+  <rect x="0" y="0" width="10" height="158" fill="#FF6B6B" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Live indicator -->
+  <circle cx="35" cy="28" r="5" fill="#FF6B6B">
+    <animate attributeName="r" values="4;6;4" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Ping ring -->
+  <circle cx="35" cy="28" r="5" fill="none" stroke="#FF6B6B" stroke-width="1.5">
+    <animate attributeName="r" values="5;14" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="50" y="33" font-family="monospace" font-size="11" fill="#FF6B6B" font-weight="bold">CURRENTLY BUILDING</text>
+
+  <!-- Project name -->
+  <text x="25" y="65" font-family="monospace" font-size="24" font-weight="bold" fill="#2C1810">🎬 Cinechrony</text>
+  
+  <!-- Description -->
+  <text x="25" y="90" font-family="monospace" font-size="12" fill="#5A3E28">A social movie watchlist app — because Letterboxd forgot collaborative lists exist.</text>
+  <text x="25" y="108" font-family="monospace" font-size="12" fill="#5A3E28">Neo-brutalist UI, shared watchlists, TikTok/Reel linking, Letterboxd import.</text>
+
+  <!-- Tech tags with staggered pop-in -->
+  <rect x="25" y="125" width="78" height="22" fill="#A8D5BA" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="64" y="140" font-family="monospace" font-size="10" fill="#2C1810" text-anchor="middle">Next.js 15</text>
+  
+  <rect x="111" y="125" width="70" height="22" fill="#FFD4A8" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite" begin="0.3s"/>
+  </rect>
+  <text x="146" y="140" font-family="monospace" font-size="10" fill="#2C1810" text-anchor="middle">Firebase</text>
+  
+  <rect x="189" y="125" width="84" height="22" fill="#FBBFCA" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite" begin="0.6s"/>
+  </rect>
+  <text x="231" y="140" font-family="monospace" font-size="10" fill="#2C1810" text-anchor="middle">TypeScript</text>
+
+  <rect x="281" y="125" width="52" height="22" fill="#B8D4F0" stroke="#000" stroke-width="2">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite" begin="0.9s"/>
+  </rect>
+  <text x="307" y="140" font-family="monospace" font-size="10" fill="#2C1810" text-anchor="middle">TMDB</text>
+
+  <!-- Animated arrow -->
+  <text x="770" y="85" font-family="monospace" font-size="28" fill="#2C1810">
+    →
+    <animateTransform attributeName="transform" type="translate" values="0,0;8,0;0,0" dur="1.5s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Mini app mockup -->
+  <rect x="620" y="30" width="155" height="110" fill="#2C1810" stroke="#000" stroke-width="2.5" rx="4"/>
+  <rect x="625" y="42" width="145" height="93" fill="#1a1a2e" rx="2"/>
+  <!-- Dots -->
+  <circle cx="635" cy="36" r="2" fill="#FF6B6B"/>
+  <circle cx="643" cy="36" r="2" fill="#FFD760"/>
+  <circle cx="651" cy="36" r="2" fill="#A8D5BA"/>
+  <!-- Animated loading bars -->
+  <rect x="632" y="50" width="0" height="8" rx="2" fill="#FF6B6B" opacity="0.8">
+    <animate attributeName="width" values="0;60;60" dur="2s" fill="freeze"/>
+  </rect>
+  <rect x="632" y="64" width="0" height="5" rx="1" fill="#FFF8E7" opacity="0.3">
+    <animate attributeName="width" values="0;130;130" dur="2.5s" fill="freeze"/>
+  </rect>
+  <rect x="632" y="74" width="0" height="5" rx="1" fill="#FFF8E7" opacity="0.2">
+    <animate attributeName="width" values="0;110;110" dur="3s" fill="freeze"/>
+  </rect>
+  <!-- Animated card elements -->
+  <rect x="632" y="88" width="62" height="30" rx="2" fill="#A8D5BA" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.4" dur="3.5s" fill="freeze"/>
+  </rect>
+  <rect x="700" y="88" width="62" height="30" rx="2" fill="#FFD760" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0.4" dur="4s" fill="freeze"/>
+  </rect>
+  <!-- Blinking cursor in mockup -->
+  <rect x="632" y="123" width="2" height="8" fill="#A8D5BA">
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
+</svg>
