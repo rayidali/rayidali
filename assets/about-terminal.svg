@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 310" width="820" height="310">
+  <!-- Terminal shadow -->
+  <rect x="6" y="6" width="808" height="298" fill="#000" opacity="0.15"/>
+  <!-- Terminal body -->
+  <rect x="0" y="0" width="808" height="298" fill="#FFF8E7" stroke="#000" stroke-width="3.5"/>
+  
+  <!-- Terminal title bar -->
+  <rect x="0" y="0" width="808" height="32" fill="#2C1810" stroke="#000" stroke-width="3.5"/>
+  <!-- Traffic light dots -->
+  <circle cx="18" cy="16" r="6" fill="#FF6B6B" stroke="#000" stroke-width="1.5"/>
+  <circle cx="38" cy="16" r="6" fill="#FFD760" stroke="#000" stroke-width="1.5"/>
+  <circle cx="58" cy="16" r="6" fill="#A8D5BA" stroke="#000" stroke-width="1.5"/>
+  <!-- Title -->
+  <text x="404" y="21" font-family="monospace" font-size="12" fill="#FFF8E7" text-anchor="middle">rayid@nyc: ~/about_me</text>
+
+  <!-- Terminal content -->
+  <text x="20" y="60" font-family="monospace" font-size="12.5" fill="#8FBA7A">$</text>
+  <text x="35" y="60" font-family="monospace" font-size="12.5" fill="#2C1810"> cat about_me.txt</text>
+
+  <text x="20" y="88" font-family="monospace" font-size="12" fill="#5A3E28">i'm rayid — i build things that live somewhere between</text>
+  <text x="20" y="106" font-family="monospace" font-size="12" fill="#5A3E28">"actually useful" and "questionable life choices."</text>
+
+  <text x="20" y="132" font-family="monospace" font-size="12" fill="#5A3E28">currently knee-deep in AI/ML, making LLMs do things</text>
+  <text x="20" y="150" font-family="monospace" font-size="12" fill="#5A3E28">they probably shouldn't (like turning research papers</text>
+  <text x="20" y="168" font-family="monospace" font-size="12" fill="#5A3E28">into animated explainer videos).</text>
+
+  <text x="20" y="194" font-family="monospace" font-size="12" fill="#5A3E28">i ship fast, break things occasionally, and fix them</text>
+  <text x="20" y="212" font-family="monospace" font-size="12" fill="#5A3E28">before anyone notices. MS in CS. full-stack when i have to be.</text>
+
+  <text x="20" y="240" font-family="monospace" font-size="12" fill="#8FBA7A">$</text>
+  <text x="35" y="240" font-family="monospace" font-size="12" fill="#2C1810"> echo $FUN_FACT</text>
+  <text x="20" y="264" font-family="monospace" font-size="12" fill="#FF8C5A">☕ coffee makes me sleepy — tragic for someone who codes at 2am</text>
+
+  <!-- Blinking cursor -->
+  <rect x="20" y="278" width="8" height="14" fill="#8FBA7A">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
